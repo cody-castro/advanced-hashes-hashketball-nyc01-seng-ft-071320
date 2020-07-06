@@ -163,7 +163,8 @@ def get_nums
 nums = game_hash.values.map do |points|
   points[:players]
 end
- nums.flatten
+ nums
+ binding.pry
 end
 
 
@@ -200,25 +201,14 @@ def team_names
   get_teams
 end
 #----------------------------------------------
-#Returns array of jersey numbers for that team
 
-# def player_numbers(team_name)
-#   nums = get_nums.map.select do |numbers|
-#     if num == team_name
-#       return numbers[:number]
-       
-#   end
-#   nums
-# end
-# end
 
 def player_numbers(team_name)
-  nums = get_nums.map.values do |points|
-    points[:number] 
-    binding.pry
+  nums = get_nums.map do |points|
+    points[:number]
   end
-  nums
-end
+    return nums
+  end
 
 #----------------------------------------------
 
