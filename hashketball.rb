@@ -202,15 +202,15 @@ end
 #----------------------------------------------
 
 def player_numbers(team_name)
-  team = []
+numbers = []
   game_hash.each do |key,value|
     if value[:team_name] == team_name 
       value[:players].each do |num|
-        team << num[:number]
+        numbers << num[:number]
     end
     end
   end
-  team
+  numbers
 end
 
 #----------------------------------------------
