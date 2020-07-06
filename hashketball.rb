@@ -210,8 +210,9 @@ end
 #   end
 def player_numbers(team_name)
   game_hash.each do |key,value|
-    if value[:team_name] == team_name 
-      puts key[points]
+    if value[:team_name] == team_name do
+      
+      
     end
   end
 end
