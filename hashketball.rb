@@ -208,6 +208,8 @@ end
 #   end
 #     return nums
 #   end
+def player_numbers(team_name)
+  game_hash.
 
 #----------------------------------------------
 
