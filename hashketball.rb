@@ -164,7 +164,6 @@ nums = game_hash.values.map do |points|
   points[:players]
 end
  nums
- binding.pry
 end
 
 
