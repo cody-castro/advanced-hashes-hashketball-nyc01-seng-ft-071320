@@ -214,6 +214,7 @@ def player_numbers(team_name)
       puts key[points]
     end
   end
+end
 
 #----------------------------------------------
 
