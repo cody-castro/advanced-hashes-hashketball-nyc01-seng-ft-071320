@@ -202,12 +202,12 @@ end
 #----------------------------------------------
 
 
-def player_numbers(team_name)
-  nums = get_nums.map do |points|
-    points[:number]
-  end
-    return nums
-  end
+# def player_numbers(team_name)
+#   nums = get_nums.map do |points|
+#     points[:number]
+#   end
+#     return nums
+#   end
 
 #----------------------------------------------
 
