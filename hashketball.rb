@@ -166,6 +166,16 @@ end
  nums
 end
 
+#----------------------Helper Method------------------------
+
+def get_shoes
+  returned_shoe = game_hash.keys.map do |teams|
+    game_hash[teams]["Mason Plumlee"]
+  end
+  returned_teams
+  binding.pry
+end
+
 
 #---------------------------------------------
 def num_points_scored(player_name)
