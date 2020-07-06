@@ -174,7 +174,6 @@ def get_shoes
   end
   returned_teams
   binding.pry
-  return "messing"
 end
 
 
