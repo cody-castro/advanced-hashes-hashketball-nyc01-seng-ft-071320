@@ -234,6 +234,14 @@ end
 
 #----------------------------------------------
 
+def big_shoe_rebounds(player_name = "Mason Plumlee")
+found_player = get_players.find do |player|
+  player[:player_name] == player_name
+end
+return found_player[:rebounds]
+end
+
+
 
 
 
