@@ -212,7 +212,7 @@ def player_numbers(team_name)
   game_hash.each do |key,value|
     if value[:team_name] == team_name do
       value.each do |num|
-        
+        team << num
     end
     end
   end
